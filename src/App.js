@@ -10,6 +10,7 @@ import NotFound from './Components/NotFound/NotFound';
 import Footer from './Components/Footer/Footer';
 import SingIn from './Components/SingIn/SingIn';
 import SingUp from './Components/SingUp/SingUp'
+import ForgottenPassword from './Components/ForgottenPassword/ForgottenPassword';
 
 function App() {
   return (
@@ -23,6 +24,7 @@ function App() {
           <Route path='/pricing' element={<Pricing/>}></Route>
           <Route path='/sing-in' element={<SingIn/>}/>
           <Route path="/sing-up" element={<SingUp/>}></Route>
+          <Route path='/forgotten-password' element={<ForgottenPassword/>}></Route>
           <Route path="*" element={<NotFound/>}></Route>
       </Routes>
       <Footer></Footer>

@@ -37,7 +37,7 @@ const SingUp = () => {
                 <div className='flex justify-center'>
                     <input className='bg-green-500 cursor-pointer py-2 px-10 text-white font-bold rounded-md hover:bg-green-600' type="button" value="Submit" />
                 </div>
-                <Link to="/" className='text-md text-blue-500 hover:underline flex justify-center sm:mt-4'>Already have an account?</Link>
+                <Link to="/sing-in" className='text-md text-blue-500 hover:underline flex justify-center sm:mt-4'>Already have an account?</Link>
             </div>
         </div> 
     );
