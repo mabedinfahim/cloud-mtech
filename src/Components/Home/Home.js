@@ -21,16 +21,16 @@ const Home = () => {
             <div className='mx-auto w-5/6  rounded-lg bg-gray-100'>
                 <h1 className='text-center pt-6 pb-6'>Data Services</h1>
                 <div className='grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 pl-10  md:gap-4 '>
-                    <div className='grid justify-center items-center w-1/4 h-[100px] gap-2 '>
+                    <div className='grid md:grid-cols-2 justify-center items-center w-1/4 md:w-2/4 h-[100px] gap-2 '>
                     <CloudUploadIcon className='w-6 h-6 text-blue-500'/><div className='text-gray-500'>App Security</div>
                     </div>
-                    <div className='grid justify-center items-center w-1/4 h-[100px] gap-2'>
+                    <div className='grid md:grid-cols-2 justify-center items-center w-1/4 md:w-2/4 h-[100px] gap-2'>
                     <DatabaseIcon className='w-6 h-6 text-blue-500'/><div className='text-gray-500'>App Security</div>
                     </div>
-                    <div className='grid justify-center items-center w-1/4 h-[100px] gap-2'>
+                    <div className='grid md:grid-cols-2 justify-center items-center w-1/4 md:w-2/4 h-[100px] gap-2'>
                     <ServerIcon className='w-6 h-6 text-blue-500'/><div className='text-gray-500'>App Security</div>
                     </div>
-                    <div className='grid justify-center items-center w-1/4 h-[100px] gap-2'>
+                    <div className='grid md:grid-cols-2 justify-center items-center w-1/4 md:w-2/4 h-[100px] gap-2'>
                     <PaperAirplaneIcon className='w-6 h-6 text-blue-500'/><div className='text-gray-500'>App Security</div>
                     </div>
                 </div>
